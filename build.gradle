@@ -86,7 +86,7 @@ libraries {
 tasks.withType(Upload) {
     repositories {
         mavenDeployer {
-            repository(url: uri('../../.maven'))
+            repository(url: uri('.maven'))
         }
     }
 }
